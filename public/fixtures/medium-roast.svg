@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" width="1200" height="1500">
+  <!-- DEVELOPMENT FIXTURE: concept render, not a packaging photograph. Replace with Shopify product media. -->
+  <defs>
+    <linearGradient id="body" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#2a1a13"/>
+      <stop offset=".18" stop-color="#5a3a2b"/>
+      <stop offset=".55" stop-color="#5a3a2b"/>
+      <stop offset="1" stop-color="#2a1a13"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".10"/>
+      <stop offset=".25" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".85" stop-color="#000" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="spec" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><path d="M44 30 Q44 22 52 22 L188 22 Q196 22 196 30 L201 262 Q202 280 184 282 L56 282 Q38 280 39 262 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="240" height="300" fill="url(#body)"/>
+    <rect width="240" height="300" fill="url(#shade)"/>
+    <rect x="66" y="0" width="26" height="300" fill="url(#spec)"/>
+    <rect x="40" y="22" width="162" height="16" fill="#000" opacity=".22"/>
+    <g opacity=".22" stroke="#000" stroke-width=".6">
+      <line x1="40" x2="202" y1="24.0" y2="24.0"/><line x1="40" x2="202" y1="26.4" y2="26.4"/><line x1="40" x2="202" y1="28.8" y2="28.8"/><line x1="40" x2="202" y1="31.2" y2="31.2"/><line x1="40" x2="202" y1="33.6" y2="33.6"/><line x1="40" x2="202" y1="36.0" y2="36.0"/>
+    </g>
+    <path d="M39 262 Q120 250 201 262" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1.2"/>
+    <rect x="70" y="92" width="100" height="132" rx="2" fill="#eee9df"/>
+    <rect x="74" y="96" width="92" height="124" rx="1" fill="none" stroke="#38261f" stroke-opacity=".35" stroke-width=".6"/>
+    <text x="120" y="122" text-anchor="middle" font-family="Didot, 'Bodoni 72', 'Times New Roman', serif" font-size="13" letter-spacing="2.4" fill="#38261f">MORNING</text>
+    <text x="120" y="138" text-anchor="middle" font-family="Didot, 'Bodoni 72', 'Times New Roman', serif" font-size="13" letter-spacing="2.4" fill="#38261f">REBEL</text>
+    <line x1="100" x2="140" y1="148" y2="148" stroke="#691e2b" stroke-width="1"/>
+    <text x="120" y="166" text-anchor="middle" font-family="Didot, 'Bodoni 72', 'Times New Roman', serif" font-size="11" font-style="italic" fill="#691e2b">Medium Roast</text>
+    <text x="120" y="184" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="5.2" letter-spacing="1.6" fill="#38261f" fill-opacity=".8">MUSHROOM COFFEE</text>
+    <text x="120" y="210" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="3.4" letter-spacing=".6" fill="#38261f" fill-opacity=".55">FOR THE RITUAL. NOT THE HYPE.</text>
+    <circle cx="120" cy="64" r="7" fill="#000" fill-opacity=".25"/>
+    <circle cx="120" cy="64" r="4.2" fill="none" stroke="#fff" stroke-opacity=".12"/>
+  </g>
+  <path d="M44 30 Q44 22 52 22 L188 22 Q196 22 196 30 L201 262 Q202 280 184 282 L56 282 Q38 280 39 262 Z" fill="none" stroke="#fff" stroke-opacity=".08"/>
+  <path d="M186 22 l4 6 l4 -6" fill="none" stroke="#000" stroke-opacity=".4" stroke-width=".8"/>
+</svg>
